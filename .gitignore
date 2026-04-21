@@ -1,0 +1,26 @@
+.env
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# SQLite files
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Project artifacts
+alembic/
+
+# Keep dependency lock files tracked
